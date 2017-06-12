@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@32.31.102.2">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="NDFUSHITONG">
+      <ObjectId>61</ObjectId>
+      <IntrospectionTimestamp>2017-06-07.14:09:36</IntrospectionTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>11</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="DIP">
+      <ObjectId>19</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="TSMSYS">
+      <ObjectId>21</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="DBSNMP">
+      <ObjectId>24</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="ORACLE_OCM">
+      <ObjectId>25</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="WMSYS">
+      <ObjectId>26</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="EXFSYS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="DMSYS">
+      <ObjectId>36</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="CTXSYS">
+      <ObjectId>37</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="XDB">
+      <ObjectId>39</ObjectId>
+    </schema>
+    <schema id="16" parent="1" name="ANONYMOUS">
+      <ObjectId>40</ObjectId>
+    </schema>
+    <schema id="17" parent="1" name="ORDSYS">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="18" parent="1" name="ORDPLUGINS">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="19" parent="1" name="SI_INFORMTN_SCHEMA">
+      <ObjectId>46</ObjectId>
+    </schema>
+    <schema id="20" parent="1" name="MDSYS">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="21" parent="1" name="OLAPSYS">
+      <ObjectId>49</ObjectId>
+    </schema>
+    <schema id="22" parent="1" name="MDDATA">
+      <ObjectId>53</ObjectId>
+    </schema>
+    <schema id="23" parent="1" name="SYSMAN">
+      <ObjectId>54</ObjectId>
+    </schema>
+    <schema id="24" parent="1" name="MGMT_VIEW">
+      <ObjectId>56</ObjectId>
+    </schema>
+    <schema id="25" parent="1" name="SCOTT">
+      <ObjectId>57</ObjectId>
+    </schema>
+    <schema id="26" parent="1" name="NJRKINFO">
+      <ObjectId>58</ObjectId>
+    </schema>
+    <schema id="27" parent="1" name="IR">
+      <ObjectId>59</ObjectId>
+    </schema>
+    <schema id="28" parent="1" name="XYC_NJRK">
+      <ObjectId>60</ObjectId>
+    </schema>
+    <schema id="29" parent="1" name="DEVU">
+      <ObjectId>62</ObjectId>
+    </schema>
+    <schema id="30" parent="1" name="XUFENG">
+      <ObjectId>63</ObjectId>
+    </schema>
+    <schema id="31" parent="1" name="NJAPP">
+      <ObjectId>64</ObjectId>
+    </schema>
+  </database-model>
+</dataSource>

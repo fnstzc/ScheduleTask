@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Jan 05 21:43:25 CST 2017
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=true
+jarname=E\:\\uap_workspace\\ScheduledTask\\ScheduledTask_fat.jar
+manifest.mergeall=true
+manifest.mainclass=com.fnst.dlyy.task.StartTask
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

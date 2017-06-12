@@ -1,0 +1,4357 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="dlyy@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.2">
+    <root id="1"/>
+    <schema id="2" parent="1" name="dlyy">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="dlyy-test"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="test"/>
+    <table id="7" parent="2" name="actual_time_meter"/>
+    <table id="8" parent="2" name="air_monitoring"/>
+    <table id="9" parent="2" name="airconditioneffdiagnosis"/>
+    <table id="10" parent="2" name="airconditioner"/>
+    <table id="11" parent="2" name="airconditionmonitor"/>
+    <table id="12" parent="2" name="alarmconfig"/>
+    <table id="13" parent="2" name="alarmrecord"/>
+    <table id="14" parent="2" name="alarmstatistic"/>
+    <table id="15" parent="2" name="bb"/>
+    <table id="16" parent="2" name="bu"/>
+    <table id="17" parent="2" name="build_quota_build"/>
+    <table id="18" parent="2" name="build_quota_quota"/>
+    <table id="19" parent="2" name="buildmsg"/>
+    <table id="20" parent="2" name="commonutil"/>
+    <table id="21" parent="2" name="concentrator"/>
+    <table id="22" parent="2" name="controlconfig"/>
+    <table id="23" parent="2" name="controlmonitor"/>
+    <table id="24" parent="2" name="datadcitionary"/>
+    <table id="25" parent="2" name="dataentry"/>
+    <table id="26" parent="2" name="datatree"/>
+    <table id="27" parent="2" name="datatype"/>
+    <table id="28" parent="2" name="department"/>
+    <table id="29" parent="2" name="dept_quota"/>
+    <table id="30" parent="2" name="echartstest"/>
+    <table id="31" parent="2" name="elevator_monitoring"/>
+    <table id="32" parent="2" name="elevatormonitor"/>
+    <table id="33" parent="2" name="energy_estimate"/>
+    <table id="34" parent="2" name="energy_quota"/>
+    <table id="35" parent="2" name="energy_statistics"/>
+    <table id="36" parent="2" name="energyconsumptionstatistics"/>
+    <table id="37" parent="2" name="energycostanalysis"/>
+    <table id="38" parent="2" name="energyefficiencyanalysis"/>
+    <table id="39" parent="2" name="energyquota"/>
+    <table id="40" parent="2" name="energyreport"/>
+    <table id="41" parent="2" name="energyzl"/>
+    <table id="42" parent="2" name="equipment"/>
+    <table id="43" parent="2" name="equipstatistics"/>
+    <table id="44" parent="2" name="equipstatistics_copy"/>
+    <table id="45" parent="2" name="floor"/>
+    <table id="46" parent="2" name="gas_monitoring"/>
+    <table id="47" parent="2" name="geographicareastatistics"/>
+    <table id="48" parent="2" name="heating_monitoring"/>
+    <table id="49" parent="2" name="hisdataanalysis"/>
+    <table id="50" parent="2" name="holidayenergyanalysis"/>
+    <table id="51" parent="2" name="holidaymanage"/>
+    <table id="52" parent="2" name="illuminationmonitor"/>
+    <table id="53" parent="2" name="index_quota"/>
+    <table id="54" parent="2" name="index_quota_value"/>
+    <table id="55" parent="2" name="keyequipmentmonitor"/>
+    <table id="56" parent="2" name="lighting_monitoring"/>
+    <table id="57" parent="2" name="maintenancerecord"/>
+    <table id="58" parent="2" name="maintenanserecoder"/>
+    <table id="59" parent="2" name="medicalgasmonitor"/>
+    <table id="60" parent="2" name="meter"/>
+    <table id="61" parent="2" name="meter_daily_data"/>
+    <table id="62" parent="2" name="meter_initial_data"/>
+    <table id="63" parent="2" name="meter_month_data"/>
+    <table id="64" parent="2" name="meter_now_data"/>
+    <table id="65" parent="2" name="meter_total_data"/>
+    <table id="66" parent="2" name="metercountreport"/>
+    <table id="67" parent="2" name="monitor"/>
+    <table id="68" parent="2" name="monitorrelation"/>
+    <table id="69" parent="2" name="mxtrain"/>
+    <table id="70" parent="2" name="newestmeter"/>
+    <table id="71" parent="2" name="para_config"/>
+    <table id="72" parent="2" name="peakvalleyelec"/>
+    <table id="73" parent="2" name="pipeline1"/>
+    <table id="74" parent="2" name="pipeline2"/>
+    <table id="75" parent="2" name="pipeline3"/>
+    <table id="76" parent="2" name="pipelinepictrue"/>
+    <table id="77" parent="2" name="pipelinepictruetype"/>
+    <table id="78" parent="2" name="place"/>
+    <table id="79" parent="2" name="pump_monitoring"/>
+    <table id="80" parent="2" name="quota_analyze"/>
+    <table id="81" parent="2" name="quotavalue"/>
+    <table id="82" parent="2" name="qx"/>
+    <table id="83" parent="2" name="real_time_meter"/>
+    <table id="84" parent="2" name="room"/>
+    <table id="85" parent="2" name="sheet1$"/>
+    <table id="86" parent="2" name="ss"/>
+    <table id="87" parent="2" name="sys_menu"/>
+    <table id="88" parent="2" name="sys_role"/>
+    <table id="89" parent="2" name="sys_user"/>
+    <table id="90" parent="2" name="t_mx_attachment"/>
+    <table id="91" parent="2" name="t_mxpms_portal_commmenu"/>
+    <table id="92" parent="2" name="t_rpt_app"/>
+    <table id="93" parent="2" name="t_rpt_business_log"/>
+    <table id="94" parent="2" name="t_rpt_cache"/>
+    <table id="95" parent="2" name="t_rpt_dataconn"/>
+    <table id="96" parent="2" name="t_rpt_dataset"/>
+    <table id="97" parent="2" name="t_rpt_exception_log"/>
+    <table id="98" parent="2" name="t_rpt_group"/>
+    <table id="99" parent="2" name="t_rpt_history"/>
+    <table id="100" parent="2" name="t_rpt_postback_log"/>
+    <table id="101" parent="2" name="t_rpt_snapshot"/>
+    <table id="102" parent="2" name="t_rpt_style"/>
+    <table id="103" parent="2" name="t_rpt_template"/>
+    <table id="104" parent="2" name="temp_report"/>
+    <table id="105" parent="2" name="templatemanage"/>
+    <table id="106" parent="2" name="test"/>
+    <table id="107" parent="2" name="testmodel"/>
+    <table id="108" parent="2" name="userprofiles"/>
+    <table id="109" parent="2" name="warningsetting"/>
+    <table id="110" parent="2" name="waterpumpsmonitor"/>
+    <column id="111" parent="7" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="112" parent="7" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="113" parent="7" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="114" parent="7" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计实时示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="115" parent="7" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="116" parent="7" name="MONTHCONSUME">
+      <Position>6</Position>
+      <Comment>当月消耗</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="117" parent="7" name="PERCENTAGE">
+      <Position>7</Position>
+      <Comment>当月指标占比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="118" parent="7" name="TONGBI">
+      <Position>8</Position>
+      <Comment>同比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="119" parent="7" name="HUANBI">
+      <Position>9</Position>
+      <Comment>环比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="120" parent="7" name="BUILD">
+      <Position>10</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="121" parent="7" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="122" parent="8" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="123" parent="8" name="AIR_NAME">
+      <Position>2</Position>
+      <Comment>空调名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="124" parent="8" name="AIR_NUM">
+      <Position>3</Position>
+      <Comment>空调编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="125" parent="8" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="126" parent="8" name="STATE">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="127" parent="8" name="TEMPERATURE">
+      <Position>6</Position>
+      <Comment>送风温度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="128" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="129" parent="9" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="130" parent="9" name="NAME">
+      <Position>2</Position>
+      <Comment>name</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="131" parent="9" name="NUMBERING">
+      <Position>3</Position>
+      <Comment>numbering</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="132" parent="9" name="BUILDING">
+      <Position>4</Position>
+      <Comment>building</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="133" parent="9" name="LOCATION">
+      <Position>5</Position>
+      <Comment>location</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="134" parent="9" name="CONSUMPTION">
+      <Position>6</Position>
+      <Comment>consumption</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="135" parent="9" name="COP">
+      <Position>7</Position>
+      <Comment>cop</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="136" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="137" parent="10" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="138" parent="10" name="AIRNAME">
+      <Position>2</Position>
+      <Comment>空调名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="139" parent="10" name="BUDLING">
+      <Position>3</Position>
+      <Comment>BUILDING</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="140" parent="10" name="LOCATION">
+      <Position>4</Position>
+      <Comment>安装位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="141" parent="10" name="ELECTRICITY">
+      <Position>5</Position>
+      <Comment>月度用电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="142" parent="10" name="MONTHLY">
+      <Position>6</Position>
+      <Comment>月度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="143" parent="10" name="COP">
+      <Position>7</Position>
+      <Comment>cop</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="144" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="145" parent="11" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="146" parent="11" name="NAME">
+      <Position>2</Position>
+      <Comment>照明名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="147" parent="11" name="NUMBERING">
+      <Position>3</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="148" parent="11" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="149" parent="11" name="RUNSTATUS">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="150" parent="11" name="TEMPERATURE">
+      <Position>6</Position>
+      <Comment>温度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="151" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="152" parent="12" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="153" parent="12" name="BUILDMSG_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="154" parent="12" name="ALARMTYPE">
+      <Position>3</Position>
+      <Comment>报警类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="155" parent="12" name="THRESHOLD">
+      <Position>4</Position>
+      <Comment>阀值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="156" parent="12" name="IMPORTENT">
+      <Position>5</Position>
+      <Comment>重要性</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="157" parent="12" name="ALARMCONTENT">
+      <Position>6</Position>
+      <Comment>报警内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="158" parent="12" name="FK9F71D0B3663BB11B">
+      <ColNames>BUILDMSG_ID</ColNames>
+    </index>
+    <key id="159" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="160" parent="13" name="AR_ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="161" parent="13" name="AR_ALARMLOCATION">
+      <Position>2</Position>
+      <Comment>报警位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="162" parent="13" name="AR_ALARMTYPE">
+      <Position>3</Position>
+      <Comment>报警类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="163" parent="13" name="AR_IMPORTANT">
+      <Position>4</Position>
+      <Comment>重要性</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="164" parent="13" name="AR_ALARMTIME">
+      <Position>5</Position>
+      <Comment>报警时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="165" parent="13" name="AR_ALARMVALUE">
+      <Position>6</Position>
+      <Comment>报警值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="166" parent="13" name="AR_ALARMTHRESHOLD">
+      <Position>7</Position>
+      <Comment>报警阀值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="167" parent="13" name="AR_ALARMCONTENT">
+      <Position>8</Position>
+      <Comment>报警内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="168" parent="13" name="AR_ALARMSTATUS">
+      <Position>9</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="169" parent="13" name="AR_HANDLERCONTENT">
+      <Position>10</Position>
+      <Comment>处理内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="170" parent="13" name="AR_HANDLERTIME">
+      <Position>11</Position>
+      <Comment>处理时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="171" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AR_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="172" parent="14" name="AS_ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="173" parent="14" name="AS_ALARMTYPE">
+      <Position>2</Position>
+      <Comment>报警类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="174" parent="14" name="AS_COUNT">
+      <Position>3</Position>
+      <Comment>次数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="175" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>AS_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="176" parent="15" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="177" parent="15" name="AGR">
+      <Position>2</Position>
+      <Comment>agr</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="178" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="179" parent="16" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="180" parent="16" name="P">
+      <Position>2</Position>
+      <Comment>p</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="181" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="182" parent="17" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="183" parent="17" name="NAME">
+      <Position>2</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="184" parent="17" name="AREA">
+      <Position>3</Position>
+      <Comment>面积</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="185" parent="17" name="DECADE">
+      <Position>4</Position>
+      <Comment>年代</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="186" parent="17" name="LAYER">
+      <Position>5</Position>
+      <Comment>层数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="187" parent="17" name="PRINCIPAL">
+      <Position>6</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="188" parent="17" name="FUNCTIONS">
+      <Position>7</Position>
+      <Comment>功能</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="189" parent="17" name="NUM_OF_BEDS">
+      <Position>8</Position>
+      <Comment>床位数量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="190" parent="17" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="191" parent="18" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="192" parent="18" name="BUILD_QUOTA_BUILD_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="193" parent="18" name="NIANDU">
+      <Position>3</Position>
+      <Comment>年度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="194" parent="18" name="QUOTA">
+      <Position>4</Position>
+      <Comment>能耗定额</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="195" parent="18" name="FKB94BF540CF6BEEE0">
+      <ColNames>BUILD_QUOTA_BUILD_ID</ColNames>
+    </index>
+    <key id="196" parent="18" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="197" parent="19" name="BM_ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="198" parent="19" name="BM_BUILD">
+      <Position>2</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="199" parent="19" name="BM_FLOOR">
+      <Position>3</Position>
+      <Comment>楼层</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="200" parent="19" name="BM_NAME">
+      <Position>4</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="201" parent="19" name="BM_AREA">
+      <Position>5</Position>
+      <Comment>面积</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="202" parent="19" name="BM_DECADE">
+      <Position>6</Position>
+      <Comment>年代</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="203" parent="19" name="BM_LAYER">
+      <Position>7</Position>
+      <Comment>层数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="204" parent="19" name="BM_PRINCIPAL">
+      <Position>8</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="205" parent="19" name="BM_FUNCTIONS">
+      <Position>9</Position>
+      <Comment>功能</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="206" parent="19" name="BM_NUM_OF_BEDS">
+      <Position>10</Position>
+      <Comment>床位数量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="207" parent="19" name="BM_BREIF">
+      <Position>11</Position>
+      <Comment>简介</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="208" parent="19" name="BM_IMAGE">
+      <Position>12</Position>
+      <Comment>图片</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="209" parent="19" name="BM_ADDRESS">
+      <Position>13</Position>
+      <Comment>地址</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="210" parent="19" name="BM_LOCATION">
+      <Position>14</Position>
+      <Comment>绝对位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="211" parent="19" name="BM_BUILDLIST">
+      <Position>15</Position>
+      <Comment>建筑列表</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="212" parent="19" name="BM_FLOORLIST">
+      <Position>16</Position>
+      <Comment>楼层列表</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="213" parent="19" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>BM_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="214" parent="20" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <key id="215" parent="20" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="216" parent="21" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="217" parent="21" name="NAME">
+      <Position>2</Position>
+      <Comment>集中器名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="218" parent="21" name="BH">
+      <Position>3</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="219" parent="21" name="METERTYPE">
+      <Position>4</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="220" parent="21" name="BUDING">
+      <Position>5</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="221" parent="21" name="ARARE">
+      <Position>6</Position>
+      <Comment>安装位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="222" parent="21" name="BZ">
+      <Position>7</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="223" parent="21" name="COLLECTTEMPLATE">
+      <Position>8</Position>
+      <Comment>采集模板</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="224" parent="21" name="RUNSTATUS">
+      <Position>9</Position>
+      <Comment>运行状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="225" parent="21" name="COLLECTTIME">
+      <Position>10</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="226" parent="21" name="COLLECTRESULT">
+      <Position>11</Position>
+      <Comment>采集结果</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="227" parent="21" name="EXCEPTIONTYPE">
+      <Position>12</Position>
+      <Comment>异常类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="228" parent="21" name="EXCEPTIONTIME">
+      <Position>13</Position>
+      <Comment>异常时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="229" parent="21" name="EXCEPTIONCONTENT">
+      <Position>14</Position>
+      <Comment>异常内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="230" parent="21" name="HANDLERCONTENT">
+      <Position>15</Position>
+      <Comment>处理内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="231" parent="21" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="232" parent="22" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="233" parent="22" name="NAME">
+      <Position>2</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="234" parent="22" name="CONTROLTYPE">
+      <Position>3</Position>
+      <Comment>控制类型</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="235" parent="22" name="IP">
+      <Position>4</Position>
+      <Comment>ip地址</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="236" parent="22" name="PORT">
+      <Position>5</Position>
+      <Comment>端口号</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="237" parent="22" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="238" parent="23" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="239" parent="23" name="NAME">
+      <Position>2</Position>
+      <Comment>回路名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="240" parent="23" name="POINTNUM">
+      <Position>3</Position>
+      <Comment>节点数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="241" parent="23" name="LOCATION">
+      <Position>4</Position>
+      <Comment>安装位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="242" parent="23" name="PRESENT">
+      <Position>5</Position>
+      <Comment>上级回路</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="243" parent="23" name="NEXT">
+      <Position>6</Position>
+      <Comment>下级回路</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="244" parent="23" name="DETAIL">
+      <Position>7</Position>
+      <Comment>详细档案</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="245" parent="23" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="246" parent="24" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="247" parent="24" name="DATATYPE_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="248" parent="24" name="DATAVALUE">
+      <Position>3</Position>
+      <Comment>datavalue</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="249" parent="24" name="DATADISCRIBE">
+      <Position>4</Position>
+      <Comment>datadiscribe</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="250" parent="24" name="DATAORDER">
+      <Position>5</Position>
+      <Comment>dataorder</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <index id="251" parent="24" name="FKFC5AAF458E61E5C">
+      <ColNames>DATATYPE_ID</ColNames>
+    </index>
+    <key id="252" parent="24" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="253" parent="25" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="254" parent="25" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="255" parent="25" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="256" parent="25" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="257" parent="25" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="258" parent="25" name="COLLECTPERSON">
+      <Position>6</Position>
+      <Comment>采集人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="259" parent="25" name="DATAINFO">
+      <Position>7</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="260" parent="25" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="261" parent="26" name="id">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="262" parent="26" name="MENUNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="263" parent="26" name="HREF">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="264" parent="26" name="ICO">
+      <Position>4</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="265" parent="26" name="VISIBILITY">
+      <Position>5</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="266" parent="26" name="PARENT_ID">
+      <Position>6</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="267" parent="26" name="SORTINDEX">
+      <Position>7</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="268" parent="26" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="269" parent="27" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="270" parent="27" name="DATATYPE">
+      <Position>2</Position>
+      <Comment>datatype</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="271" parent="27" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="272" parent="28" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="273" parent="28" name="DEPARTMENTNAME">
+      <Position>2</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="274" parent="28" name="ROOMNAME">
+      <Position>3</Position>
+      <Comment>房间名</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="275" parent="28" name="PERSONNUMBER">
+      <Position>4</Position>
+      <Comment>人数</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="276" parent="28" name="DIRECTOR">
+      <Position>5</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="277" parent="28" name="IMGURL">
+      <Position>6</Position>
+      <Comment>图片路径</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="278" parent="28" name="REMARK">
+      <Position>7</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="279" parent="28" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="280" parent="29" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="281" parent="29" name="NAME">
+      <Position>2</Position>
+      <Comment>指标名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="282" parent="29" name="MEMBER">
+      <Position>3</Position>
+      <Comment>分子</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="283" parent="29" name="DENOMINATOR">
+      <Position>4</Position>
+      <Comment>分母</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="284" parent="29" name="STATE">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="285" parent="29" name="WEIGHT">
+      <Position>6</Position>
+      <Comment>权重</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="286" parent="29" name="FORMULAS">
+      <Position>7</Position>
+      <Comment>指标公式</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="287" parent="29" name="BZ">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>TEXT(65535)|-1</DataType>
+    </column>
+    <key id="288" parent="29" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="289" parent="30" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="290" parent="30" name="NAME">
+      <Position>2</Position>
+      <Comment>名字</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="291" parent="30" name="NUM">
+      <Position>3</Position>
+      <Comment>销量</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="292" parent="30" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="293" parent="31" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="294" parent="31" name="ELE_NAME">
+      <Position>2</Position>
+      <Comment>电梯名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="295" parent="31" name="ELE_NUM">
+      <Position>3</Position>
+      <Comment>电梯编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="296" parent="31" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="297" parent="31" name="STATE">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="298" parent="31" name="MALFUNCTION">
+      <Position>6</Position>
+      <Comment>故障</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="299" parent="31" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="300" parent="32" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="301" parent="32" name="NAME">
+      <Position>2</Position>
+      <Comment>电梯名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="302" parent="32" name="NUMBERING">
+      <Position>3</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="303" parent="32" name="RUNSTATUS">
+      <Position>4</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="304" parent="32" name="FAULT">
+      <Position>5</Position>
+      <Comment>故障</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="305" parent="32" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="306" parent="33" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="307" parent="33" name="ALARMLOCATION">
+      <Position>2</Position>
+      <Comment>报警位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="308" parent="33" name="ALARMTYPE">
+      <Position>3</Position>
+      <Comment>报警类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="309" parent="33" name="IMPORTANT">
+      <Position>4</Position>
+      <Comment>重要性</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="310" parent="33" name="ALARMTIME">
+      <Position>5</Position>
+      <Comment>报警时间</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="311" parent="33" name="ALARMVALUE">
+      <Position>6</Position>
+      <Comment>实际值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="312" parent="33" name="ALARMTHRESHOLD">
+      <Position>7</Position>
+      <Comment>阈值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="313" parent="33" name="ALARMCONTENT">
+      <Position>8</Position>
+      <Comment>报警内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="314" parent="33" name="ALARMSTATUS">
+      <Position>9</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="315" parent="33" name="HANDLECONTENT">
+      <Position>10</Position>
+      <Comment>处理内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="316" parent="33" name="HANDLETIME">
+      <Position>11</Position>
+      <Comment>处理时间</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <key id="317" parent="33" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="318" parent="34" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="319" parent="34" name="NAME">
+      <Position>2</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="320" parent="34" name="AREA">
+      <Position>3</Position>
+      <Comment>面积</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="321" parent="34" name="DECADE">
+      <Position>4</Position>
+      <Comment>年代</Comment>
+      <DataType>VARCHAR(10)|12</DataType>
+    </column>
+    <column id="322" parent="34" name="LAYER">
+      <Position>5</Position>
+      <Comment>层数</Comment>
+      <DataType>VARCHAR(10)|12</DataType>
+    </column>
+    <column id="323" parent="34" name="PRINCIPAL">
+      <Position>6</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="324" parent="34" name="FUNCTIONS">
+      <Position>7</Position>
+      <Comment>功能</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="325" parent="34" name="NUM_OF_BEDS">
+      <Position>8</Position>
+      <Comment>床位数量</Comment>
+      <DataType>VARCHAR(10)|12</DataType>
+    </column>
+    <column id="326" parent="34" name="QUOTA">
+      <Position>9</Position>
+      <Comment>能耗定额</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="327" parent="35" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="328" parent="35" name="LOUCENG">
+      <Position>2</Position>
+      <Comment>楼层</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="329" parent="35" name="DIANLIANG">
+      <Position>3</Position>
+      <Comment>电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="330" parent="35" name="DIANFEI">
+      <Position>4</Position>
+      <Comment>电费</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="331" parent="35" name="SHUILIANG">
+      <Position>5</Position>
+      <Comment>水量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="332" parent="35" name="SHUIFEI">
+      <Position>6</Position>
+      <Comment>水费</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="333" parent="35" name="ZONGFEIYONG">
+      <Position>7</Position>
+      <Comment>总能耗费用</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="334" parent="35" name="MEI">
+      <Position>8</Position>
+      <Comment>标准煤</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="335" parent="35" name="TANPAIFANG">
+      <Position>9</Position>
+      <Comment>碳排放量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="336" parent="35" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="337" parent="36" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="338" parent="36" name="MONTHS">
+      <Position>2</Position>
+      <Comment>月份</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="339" parent="36" name="BUILD">
+      <Position>3</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="340" parent="36" name="DEPT">
+      <Position>4</Position>
+      <Comment>科室</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="341" parent="36" name="QUOTA">
+      <Position>5</Position>
+      <Comment>指标</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="342" parent="36" name="QUOTAVALUE">
+      <Position>6</Position>
+      <Comment>指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="343" parent="36" name="LASTQUOTAVALUE">
+      <Position>7</Position>
+      <Comment>去年同期值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="344" parent="36" name="CHANGEPERCENT">
+      <Position>8</Position>
+      <Comment>同期变化率</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="345" parent="36" name="TIMEINTERVAL">
+      <Position>9</Position>
+      <Comment>时段</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="346" parent="36" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="347" parent="37" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="348" parent="37" name="MONTHS">
+      <Position>2</Position>
+      <Comment>月份</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="349" parent="37" name="DEPT">
+      <Position>3</Position>
+      <Comment>科室</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="350" parent="37" name="ELECQUANTITY">
+      <Position>4</Position>
+      <Comment>用电量(度)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="351" parent="37" name="ELECMONEY">
+      <Position>5</Position>
+      <Comment>用电费(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="352" parent="37" name="ELECPERCENT">
+      <Position>6</Position>
+      <Comment>用电环比</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="353" parent="37" name="WATERQUANTITY">
+      <Position>7</Position>
+      <Comment>用水量(m3)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="354" parent="37" name="WATERMONEY">
+      <Position>8</Position>
+      <Comment>用水费(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="355" parent="37" name="WATERPERCENT">
+      <Position>9</Position>
+      <Comment>用水环比</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="356" parent="37" name="COALQUANTITY">
+      <Position>10</Position>
+      <Comment>标准煤(吨)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="357" parent="37" name="CARBONEMISSION">
+      <Position>11</Position>
+      <Comment>碳排放量(吨)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="358" parent="37" name="TOTALCOST">
+      <Position>12</Position>
+      <Comment>总成本(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="359" parent="37" name="COSTPERCENT">
+      <Position>13</Position>
+      <Comment>总成本div营业收入</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="360" parent="37" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="361" parent="38" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="362" parent="38" name="NENDO">
+      <Position>2</Position>
+      <Comment>年度</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="363" parent="38" name="QUOTA">
+      <Position>3</Position>
+      <Comment>指标</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="364" parent="38" name="QUOTAVALUEREF">
+      <Position>4</Position>
+      <Comment>参考指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="365" parent="38" name="QUOTAVALUEREAL">
+      <Position>5</Position>
+      <Comment>实际指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="366" parent="38" name="QUOTAPERCENT">
+      <Position>6</Position>
+      <Comment>环比</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="367" parent="38" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="368" parent="39" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="369" parent="39" name="QUOTA_NAME">
+      <Position>2</Position>
+      <Comment>指标名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="370" parent="39" name="STATISTIC_TYPE">
+      <Position>3</Position>
+      <Comment>统计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="371" parent="39" name="MEMBER">
+      <Position>4</Position>
+      <Comment>公式分子</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="372" parent="39" name="DENOMINATOR">
+      <Position>5</Position>
+      <Comment>公式分母</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="373" parent="39" name="PERIOD">
+      <Position>6</Position>
+      <Comment>时段</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="374" parent="39" name="STATE">
+      <Position>7</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="375" parent="39" name="INFO">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="376" parent="39" name="QUOTA_FORMULA">
+      <Position>9</Position>
+      <Comment>指标公式</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="377" parent="39" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="378" parent="40" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="379" parent="40" name="ZHIBIAO">
+      <Position>2</Position>
+      <Comment>zhibiao</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="380" parent="40" name="ZHIBIAOVAL">
+      <Position>3</Position>
+      <Comment>zhibiaoVal</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="381" parent="40" name="LASTYEARVAL">
+      <Position>4</Position>
+      <Comment>lastyearVal</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="382" parent="40" name="SYNCRATE">
+      <Position>5</Position>
+      <Comment>syncRate</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="383" parent="40" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="384" parent="41" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="385" parent="41" name="JIANZHU">
+      <Position>2</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="386" parent="41" name="SHIJIAN">
+      <Position>3</Position>
+      <Comment>时间</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="387" parent="41" name="XIANGMU">
+      <Position>4</Position>
+      <Comment>项目</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="388" parent="41" name="XIAOHAO">
+      <Position>5</Position>
+      <Comment>消耗</Comment>
+      <DataType>DOUBLE(22)|8</DataType>
+    </column>
+    <column id="389" parent="41" name="FEIYONG">
+      <Position>6</Position>
+      <Comment>费用</Comment>
+      <DataType>DOUBLE(22)|8</DataType>
+    </column>
+    <key id="390" parent="41" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="391" parent="42" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="392" parent="42" name="EQUIP_NAME">
+      <Position>2</Position>
+      <Comment>设备名称</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="393" parent="42" name="EQUIP_NO">
+      <Position>3</Position>
+      <Comment>设备编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="394" parent="42" name="EQUIP_TYPE">
+      <Position>4</Position>
+      <Comment>设备类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="395" parent="42" name="BUILDINGNAME">
+      <Position>5</Position>
+      <Comment>楼宇名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="396" parent="42" name="UNIT">
+      <Position>6</Position>
+      <Comment>单位</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="397" parent="42" name="EQUIP_STATE">
+      <Position>7</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="398" parent="42" name="DEFENDTEAM">
+      <Position>8</Position>
+      <Comment>维护组</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="399" parent="42" name="EQUIP_FROMBUILD">
+      <Position>9</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="400" parent="42" name="MANUFACTCOUNTRY">
+      <Position>10</Position>
+      <Comment>制造国别</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="401" parent="42" name="EQUIP_DATE_EXFACTORY">
+      <Position>11</Position>
+      <Comment>出厂日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="402" parent="42" name="EQUIP_VERSION">
+      <Position>12</Position>
+      <Comment>设备型号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="403" parent="42" name="EQUIP_SERIALNO">
+      <Position>13</Position>
+      <Comment>出厂编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="404" parent="42" name="ERECTDATE">
+      <Position>14</Position>
+      <Comment>安装日期</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="405" parent="42" name="EQUIP_FROMFLOOR">
+      <Position>15</Position>
+      <Comment>安装地点</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="406" parent="42" name="EQUIP_DATE_OPERATE">
+      <Position>16</Position>
+      <Comment>使用日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="407" parent="42" name="MANUFACTURER">
+      <Position>17</Position>
+      <Comment>厂家</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="408" parent="42" name="EQUIPNUM">
+      <Position>18</Position>
+      <Comment>电机数量</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="409" parent="42" name="EQUIP_DATE_CHECK">
+      <Position>19</Position>
+      <Comment>验收日期</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="410" parent="42" name="DIMENSION">
+      <Position>20</Position>
+      <Comment>外形尺寸</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="411" parent="42" name="EQUIPPOWER">
+      <Position>21</Position>
+      <Comment>电机功率</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="412" parent="42" name="EFFICIENCY">
+      <Position>22</Position>
+      <Comment>主要技术性能</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="413" parent="42" name="PROPERTYUNIT">
+      <Position>23</Position>
+      <Comment>产权单位</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="414" parent="42" name="RUNUNIT">
+      <Position>24</Position>
+      <Comment>运行单位</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="415" parent="42" name="MAINTAINCEUNIT">
+      <Position>25</Position>
+      <Comment>维修单位</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="416" parent="42" name="MAINTAINSEUNIT">
+      <Position>26</Position>
+      <Comment>维保单位</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="417" parent="42" name="CHECKUNIT">
+      <Position>27</Position>
+      <Comment>检测单位</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="418" parent="42" name="DUTYDEPT">
+      <Position>28</Position>
+      <Comment>责任部门</Comment>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="419" parent="42" name="EQUIP_REGISTRANT">
+      <Position>29</Position>
+      <Comment>登记人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="420" parent="42" name="EQUIP_INFO">
+      <Position>30</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="421" parent="42" name="EQUIP_DATE_BUY">
+      <Position>31</Position>
+      <Comment>购买日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="422" parent="42" name="EQUIP_DATE_BROKEN">
+      <Position>32</Position>
+      <Comment>报废日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="423" parent="42" name="EQUIP_TIME_OPERATE">
+      <Position>33</Position>
+      <Comment>投运时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="424" parent="42" name="EQUIP_SERVICELIFE">
+      <Position>34</Position>
+      <Comment>使用年限</Comment>
+      <DataType>FLOAT(12)|7</DataType>
+    </column>
+    <column id="425" parent="42" name="EQUIP_DATE_PRODUCT">
+      <Position>35</Position>
+      <Comment>生产日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="426" parent="42" name="EQUIP_DATE_CHANGE">
+      <Position>36</Position>
+      <Comment>更换日期</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <column id="427" parent="42" name="EQUIP_PICPATH">
+      <Position>37</Position>
+      <Comment>图片</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="428" parent="42" name="EQUIP_FILE_PATH">
+      <Position>38</Position>
+      <Comment>附件</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="429" parent="42" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="430" parent="43" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="431" parent="43" name="STATISTICSTIME">
+      <Position>2</Position>
+      <Comment>统计时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="432" parent="43" name="EQUIPTYPE">
+      <Position>3</Position>
+      <Comment>设备</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="433" parent="43" name="EQUIPELEC">
+      <Position>4</Position>
+      <Comment>设备用电</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="434" parent="43" name="EQUIPMAINTAIN">
+      <Position>5</Position>
+      <Comment>设备运维次数</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="435" parent="43" name="EQUIPBROKEN">
+      <Position>6</Position>
+      <Comment>设备故障次数</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="436" parent="43" name="TIMEINTERVAL">
+      <Position>7</Position>
+      <Comment>时段</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="437" parent="43" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="438" parent="44" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="439" parent="44" name="STATISTICSTIME">
+      <Position>2</Position>
+      <Comment>统计时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="440" parent="44" name="EQUIPTYPE">
+      <Position>3</Position>
+      <Comment>设备</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="441" parent="44" name="EQUIPELEC">
+      <Position>4</Position>
+      <Comment>设备用电</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="442" parent="44" name="EQUIPMAINTAIN">
+      <Position>5</Position>
+      <Comment>设备运维次数</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="443" parent="44" name="EQUIPBROKEN">
+      <Position>6</Position>
+      <Comment>设备故障次数</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="444" parent="44" name="TIMEINTERVAL">
+      <Position>7</Position>
+      <Comment>时段</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="445" parent="44" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="446" parent="45" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="447" parent="45" name="BUILD_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="448" parent="45" name="NAME">
+      <Position>3</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="449" parent="45" name="AREA">
+      <Position>4</Position>
+      <Comment>面积</Comment>
+      <DataType>FLOAT(12)|7</DataType>
+    </column>
+    <column id="450" parent="45" name="PRINCIPAL">
+      <Position>5</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="451" parent="45" name="REMARK">
+      <Position>6</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="452" parent="45" name="IMAGE">
+      <Position>7</Position>
+      <Comment>图片</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="453" parent="45" name="FK_Floor_Build_BUILDID">
+      <ColNames>BUILD_ID</ColNames>
+    </index>
+    <key id="454" parent="45" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="455" parent="46" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="456" parent="46" name="MONITORING_POINT">
+      <Position>2</Position>
+      <Comment>监测点</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="457" parent="46" name="LOCATION">
+      <Position>3</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="458" parent="46" name="OXYGEN_FLOW">
+      <Position>4</Position>
+      <Comment>氧气流量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="459" parent="46" name="COMPRESSED_AIR_FLOW">
+      <Position>5</Position>
+      <Comment>压缩空气流量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="460" parent="46" name="OXYGEN_ALARM">
+      <Position>6</Position>
+      <Comment>氧气报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="461" parent="46" name="ATTRACT_ALARM">
+      <Position>7</Position>
+      <Comment>吸引报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="462" parent="46" name="COMPRESSION_ALARM">
+      <Position>8</Position>
+      <Comment>压缩报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="463" parent="46" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="464" parent="47" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="465" parent="47" name="MONTHS">
+      <Position>2</Position>
+      <Comment>月份</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="466" parent="47" name="BUILD">
+      <Position>3</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="467" parent="47" name="DEPT">
+      <Position>4</Position>
+      <Comment>科室</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="468" parent="47" name="QUOTA">
+      <Position>5</Position>
+      <Comment>指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="469" parent="47" name="QUOTAVALUE">
+      <Position>6</Position>
+      <Comment>指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="470" parent="47" name="LASTQUOTAVALUE">
+      <Position>7</Position>
+      <Comment>去年同期值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="471" parent="47" name="CHANGEPERCENT">
+      <Position>8</Position>
+      <Comment>同期变化率</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="472" parent="47" name="TIMEINTERVAL">
+      <Position>9</Position>
+      <Comment>时段</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="473" parent="47" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="474" parent="48" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="475" parent="48" name="HEATING_NAME">
+      <Position>2</Position>
+      <Comment>设备名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="476" parent="48" name="HEATING_NUM">
+      <Position>3</Position>
+      <Comment>设备编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="477" parent="48" name="TEMPERATURE">
+      <Position>4</Position>
+      <Comment>温度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="478" parent="48" name="VALVE_OPENING">
+      <Position>5</Position>
+      <Comment>阀门开度</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="479" parent="48" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="480" parent="49" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="481" parent="49" name="HISMONTH">
+      <Position>2</Position>
+      <Comment>月份</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="482" parent="49" name="BUILD">
+      <Position>3</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="483" parent="49" name="FLOOR">
+      <Position>4</Position>
+      <Comment>楼层</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="484" parent="49" name="ELECNUM">
+      <Position>5</Position>
+      <Comment>电量(度)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="485" parent="49" name="ELECMONEY">
+      <Position>6</Position>
+      <Comment>电费(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="486" parent="49" name="WATERNUM">
+      <Position>7</Position>
+      <Comment>水量(m3)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="487" parent="49" name="WATERMONEY">
+      <Position>8</Position>
+      <Comment>水费(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="488" parent="49" name="TOTALMONEY">
+      <Position>9</Position>
+      <Comment>总能耗费用(元)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="489" parent="49" name="CARBONNUM">
+      <Position>10</Position>
+      <Comment>标准煤(吨)</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="490" parent="49" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="491" parent="50" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="492" parent="50" name="NENDO">
+      <Position>2</Position>
+      <Comment>年度</Comment>
+      <DataType>VARCHAR(10)|12</DataType>
+    </column>
+    <column id="493" parent="50" name="HOLIDAYNAME">
+      <Position>3</Position>
+      <Comment>假期名称</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <column id="494" parent="50" name="HOLIDAYDATE">
+      <Position>4</Position>
+      <Comment>放假日期</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="495" parent="50" name="TOTALENERGY">
+      <Position>5</Position>
+      <Comment>总能耗</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="496" parent="50" name="AVERAGEENERGY">
+      <Position>6</Position>
+      <Comment>日均能耗</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="497" parent="50" name="RATIO">
+      <Position>7</Position>
+      <Comment>昼夜比</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="498" parent="50" name="WORKDAYAVERAGEENERGY">
+      <Position>8</Position>
+      <Comment>当月工作日日均能耗</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="499" parent="50" name="CONTRAST">
+      <Position>9</Position>
+      <Comment>对比</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="500" parent="50" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="501" parent="51" name="ID">
+      <Position>1</Position>
+      <Comment>节假日编号</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="502" parent="51" name="NENDO">
+      <Position>2</Position>
+      <Comment>年度</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="503" parent="51" name="HOLIDAYNAME">
+      <Position>3</Position>
+      <Comment>假期名称</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <column id="504" parent="51" name="VACATIONSTART">
+      <Position>4</Position>
+      <Comment>放假开始</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="505" parent="51" name="VACATIONEND">
+      <Position>5</Position>
+      <Comment>放假结束</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="506" parent="51" name="RESTDATE">
+      <Position>6</Position>
+      <Comment>调休开始日期</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="507" parent="51" name="RESTEND">
+      <Position>7</Position>
+      <Comment>调休结束</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="508" parent="51" name="REMARK">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="509" parent="51" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="510" parent="52" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="511" parent="52" name="NAME">
+      <Position>2</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="512" parent="52" name="NUMBERING">
+      <Position>3</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="513" parent="52" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="514" parent="52" name="RUNSTATUS">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="515" parent="52" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="516" parent="53" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="517" parent="53" name="DEPT_ID">
+      <Position>2</Position>
+      <Comment>部门</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="518" parent="53" name="MONTHLY">
+      <Position>3</Position>
+      <Comment>月度</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="519" parent="53" name="INDEX_NAME">
+      <Position>4</Position>
+      <Comment>指标</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="520" parent="53" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="521" parent="54" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="522" parent="54" name="INDEX_QUOTA_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="523" parent="54" name="NAME">
+      <Position>3</Position>
+      <Comment>指标名</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="524" parent="54" name="VALUE">
+      <Position>4</Position>
+      <Comment>指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="525" parent="54" name="WEIGHT">
+      <Position>5</Position>
+      <Comment>权重</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="526" parent="54" name="FK7714349DACF7F4C2">
+      <ColNames>INDEX_QUOTA_ID</ColNames>
+    </index>
+    <key id="527" parent="54" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="528" parent="55" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="529" parent="55" name="EQUIPMENTNAME">
+      <Position>2</Position>
+      <Comment>设备名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="530" parent="55" name="EQUIPMENTTYPE">
+      <Position>3</Position>
+      <Comment>设备类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="531" parent="55" name="ENERGYCONSUME">
+      <Position>4</Position>
+      <Comment>总能耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="532" parent="55" name="MONTHCONSUME">
+      <Position>5</Position>
+      <Comment>当月消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="533" parent="55" name="YEARONYEAR">
+      <Position>6</Position>
+      <Comment>同比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="534" parent="55" name="MONTHONMONTH">
+      <Position>7</Position>
+      <Comment>环比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="535" parent="55" name="ISALARM">
+      <Position>8</Position>
+      <Comment>有无报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="536" parent="55" name="ALARMCONTENT">
+      <Position>9</Position>
+      <Comment>报警内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="537" parent="55" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="538" parent="56" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="539" parent="56" name="LIGHTING_NAME">
+      <Position>2</Position>
+      <Comment>照明名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="540" parent="56" name="LIGHTING_NUM">
+      <Position>3</Position>
+      <Comment>照明编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="541" parent="56" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="542" parent="56" name="STATE">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="543" parent="56" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="544" parent="57" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="545" parent="57" name="EQUIPMENT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="546" parent="57" name="EQUIPNO">
+      <Position>3</Position>
+      <Comment>设备编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="547" parent="57" name="EQUIPNAME">
+      <Position>4</Position>
+      <Comment>设备名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="548" parent="57" name="MAINTAIN_TIME">
+      <Position>5</Position>
+      <Comment>维修时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="549" parent="57" name="MAINTAIN_PERSON">
+      <Position>6</Position>
+      <Comment>维修人员</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="550" parent="57" name="MAINTAIN_CAUSE">
+      <Position>7</Position>
+      <Comment>故障原因</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="551" parent="57" name="MAINTAIN_CONTENT">
+      <Position>8</Position>
+      <Comment>维修内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="552" parent="57" name="FKE329A5045A23412">
+      <ColNames>EQUIPMENT_ID</ColNames>
+    </index>
+    <key id="553" parent="57" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="554" parent="58" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="555" parent="58" name="EQUIPMENT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="556" parent="58" name="EQUIPNO">
+      <Position>3</Position>
+      <Comment>设备编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="557" parent="58" name="EQUIPNAME">
+      <Position>4</Position>
+      <Comment>设备名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="558" parent="58" name="MAINTAIN_TIME">
+      <Position>5</Position>
+      <Comment>计划维保时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="559" parent="58" name="MAINTAIN_TIME_ACTUAL">
+      <Position>6</Position>
+      <Comment>实际维保时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="560" parent="58" name="MAINTAIN_PERSON">
+      <Position>7</Position>
+      <Comment>维保人员</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="561" parent="58" name="MAINTAIN_CONTENT">
+      <Position>8</Position>
+      <Comment>维保内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="562" parent="58" name="FKC651B76F5A23412">
+      <ColNames>EQUIPMENT_ID</ColNames>
+    </index>
+    <key id="563" parent="58" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="564" parent="59" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="565" parent="59" name="MONITORPOINT">
+      <Position>2</Position>
+      <Comment>监测点</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="566" parent="59" name="LOCATION">
+      <Position>3</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="567" parent="59" name="OXYGENFLOWRATE">
+      <Position>4</Position>
+      <Comment>氧气流量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="568" parent="59" name="COMPRESSEDAIRFLOW">
+      <Position>5</Position>
+      <Comment>压缩空气流量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="569" parent="59" name="OXYGENALARM">
+      <Position>6</Position>
+      <Comment>氧气报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="570" parent="59" name="ATTRACTALARM">
+      <Position>7</Position>
+      <Comment>吸引报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="571" parent="59" name="COMPRESSALARM">
+      <Position>8</Position>
+      <Comment>压缩报警</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="572" parent="59" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="573" parent="60" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="574" parent="60" name="NUM">
+      <Position>2</Position>
+      <Comment>表计编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="575" parent="60" name="METETYPE">
+      <Position>3</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="576" parent="60" name="BUILDING">
+      <Position>4</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="577" parent="60" name="METERNAME">
+      <Position>5</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="578" parent="60" name="LOCATION">
+      <Position>6</Position>
+      <Comment>安装位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="579" parent="60" name="CONCENTRATOR">
+      <Position>7</Position>
+      <Comment>所属集中器</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="580" parent="60" name="BZ">
+      <Position>8</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(200)|12</DataType>
+    </column>
+    <column id="581" parent="60" name="PARENTMETER">
+      <Position>9</Position>
+      <Comment>上级表计</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="582" parent="60" name="FLAG">
+      <Position>10</Position>
+      <Comment>是否是总表</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="583" parent="60" name="EQUIPTYPE">
+      <Position>11</Position>
+      <Comment>设备类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="584" parent="60" name="ISKEYEQUIPMENT">
+      <Position>12</Position>
+      <Comment>是否是重点设备</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="585" parent="60" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="586" parent="61" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="587" parent="61" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="588" parent="61" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="589" parent="61" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="590" parent="61" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="591" parent="61" name="METERNUM_TIP">
+      <Position>6</Position>
+      <Comment>尖段消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="592" parent="61" name="METERNUM_PEAK">
+      <Position>7</Position>
+      <Comment>峰段消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="593" parent="61" name="METERNUM_VALLEY">
+      <Position>8</Position>
+      <Comment>谷段消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="594" parent="61" name="METERNUM_NORMAL">
+      <Position>9</Position>
+      <Comment>平段消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="595" parent="61" name="DAILYCONSUME">
+      <Position>10</Position>
+      <Comment>当日总消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="596" parent="61" name="BUILD">
+      <Position>11</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="597" parent="61" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="598" parent="62" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>BIGINT(19)|-5</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="599" parent="62" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="600" parent="62" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="601" parent="62" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="602" parent="62" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="603" parent="62" name="COLLECTPERSON">
+      <Position>6</Position>
+      <Comment>采集人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="604" parent="62" name="DATAINFO">
+      <Position>7</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="605" parent="62" name="BUILD">
+      <Position>8</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="606" parent="62" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="607" parent="63" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="608" parent="63" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="609" parent="63" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="610" parent="63" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="611" parent="63" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="612" parent="63" name="MONTHCONSUME">
+      <Position>6</Position>
+      <Comment>当月消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="613" parent="63" name="BUILD">
+      <Position>7</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="614" parent="63" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="615" parent="64" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="616" parent="64" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="617" parent="64" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="618" parent="64" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="619" parent="64" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="620" parent="64" name="COLLECTPERSON">
+      <Position>6</Position>
+      <Comment>采集人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="621" parent="64" name="DATAINFO">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="622" parent="64" name="MONTHCONSUME">
+      <Position>8</Position>
+      <Comment>当月消耗</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="623" parent="64" name="tongbi">
+      <Position>9</Position>
+      <Comment>同比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="624" parent="64" name="huanbi">
+      <Position>10</Position>
+      <Comment>环比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="625" parent="64" name="BUILD">
+      <Position>11</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="626" parent="64" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="627" parent="65" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="628" parent="65" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="629" parent="65" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="630" parent="65" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="631" parent="65" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="632" parent="65" name="TOTALCONSUME">
+      <Position>6</Position>
+      <Comment>总消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="633" parent="65" name="TOTALCOST">
+      <Position>7</Position>
+      <Comment>总费用</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="634" parent="65" name="BUILD">
+      <Position>8</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="635" parent="65" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="636" parent="66" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="637" parent="66" name="TIME_INTERVAL">
+      <Position>2</Position>
+      <Comment>time_interval</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <column id="638" parent="66" name="METERNUM">
+      <Position>3</Position>
+      <Comment>meternum</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <key id="639" parent="66" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="640" parent="67" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="641" parent="67" name="DEPTNAME">
+      <Position>2</Position>
+      <Comment>科室</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="642" parent="67" name="ROOM">
+      <Position>3</Position>
+      <Comment>房间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="643" parent="67" name="NUM">
+      <Position>4</Position>
+      <Comment>人数</Comment>
+      <DataType>BIGINT(19)|-5</DataType>
+    </column>
+    <column id="644" parent="67" name="FZR">
+      <Position>5</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="645" parent="67" name="RATE">
+      <Position>6</Position>
+      <Comment>指标完成率</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="646" parent="67" name="SCORE">
+      <Position>7</Position>
+      <Comment>指标评分</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="647" parent="67" name="TOP">
+      <Position>8</Position>
+      <Comment>排名</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="648" parent="67" name="MONTH">
+      <Position>9</Position>
+      <Comment>月度消耗量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="649" parent="67" name="XHL">
+      <Position>10</Position>
+      <Comment>月度消耗</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="650" parent="67" name="RATIO">
+      <Position>11</Position>
+      <Comment>比率</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="651" parent="67" name="POWERDL">
+      <Position>12</Position>
+      <Comment>动力电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="652" parent="67" name="LIGHTINGDL">
+      <Position>13</Position>
+      <Comment>照明电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="653" parent="67" name="DISTRIBUDL">
+      <Position>14</Position>
+      <Comment>配电电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="654" parent="67" name="DLCOUNT">
+      <Position>15</Position>
+      <Comment>月度总电量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="655" parent="67" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="656" parent="68" name="MR_ID">
+      <Position>1</Position>
+      <Comment>mr_id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="657" parent="68" name="MR_METERNAME">
+      <Position>2</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="658" parent="68" name="MR_MONITORROOM">
+      <Position>3</Position>
+      <Comment>监测房间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="659" parent="68" name="MR_REMARK">
+      <Position>4</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="660" parent="68" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>MR_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="661" parent="69" name="id">
+      <Position>1</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="662" parent="69" name="shengfen">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="663" parent="69" name="yongdian">
+      <Position>3</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <key id="664" parent="69" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="665" parent="70" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="666" parent="70" name="NAME">
+      <Position>2</Position>
+      <Comment>metertype</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="667" parent="70" name="METERNAME">
+      <Position>3</Position>
+      <Comment>metername</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="668" parent="70" name="METERNUM">
+      <Position>4</Position>
+      <Comment>meternum</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="669" parent="70" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>collecttime</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="670" parent="70" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="671" parent="71" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="672" parent="71" name="PARANAME">
+      <Position>2</Position>
+      <Comment>参数名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="673" parent="71" name="PARAVALUES">
+      <Position>3</Position>
+      <Comment>参数值</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="674" parent="71" name="UNIT">
+      <Position>4</Position>
+      <Comment>单位</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="675" parent="71" name="MIAOSHU">
+      <Position>5</Position>
+      <Comment>描述</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="676" parent="71" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="677" parent="72" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(64)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="678" parent="72" name="ELECTIME">
+      <Position>2</Position>
+      <Comment>月份</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="679" parent="72" name="BUILD">
+      <Position>3</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(225)|12</DataType>
+    </column>
+    <column id="680" parent="72" name="FLOOR">
+      <Position>4</Position>
+      <Comment>楼层</Comment>
+      <DataType>VARCHAR(225)|12</DataType>
+    </column>
+    <column id="681" parent="72" name="TIPELEC">
+      <Position>5</Position>
+      <Comment>尖电量</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="682" parent="72" name="TIPMONEY">
+      <Position>6</Position>
+      <Comment>尖电费</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="683" parent="72" name="PEAKELEC">
+      <Position>7</Position>
+      <Comment>峰电量</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="684" parent="72" name="PEAKMONEY">
+      <Position>8</Position>
+      <Comment>峰电费</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="685" parent="72" name="VALLEYELEC">
+      <Position>9</Position>
+      <Comment>谷电量</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="686" parent="72" name="VALLEYMONEY">
+      <Position>10</Position>
+      <Comment>谷电费</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="687" parent="72" name="NORMELEC">
+      <Position>11</Position>
+      <Comment>平电量</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="688" parent="72" name="NORMMONEY">
+      <Position>12</Position>
+      <Comment>平电费</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="689" parent="72" name="TOTALMONEY">
+      <Position>13</Position>
+      <Comment>总电费</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="690" parent="72" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="691" parent="73" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="692" parent="73" name="PIPELINETYPE">
+      <Position>2</Position>
+      <Comment>pipelinetype</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="693" parent="73" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="694" parent="74" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="695" parent="74" name="PIPELINE1_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="696" parent="74" name="PROPERTY2">
+      <Position>3</Position>
+      <Comment>property2</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <index id="697" parent="74" name="FKF69AB9D0A1664589">
+      <ColNames>PIPELINE1_ID</ColNames>
+    </index>
+    <key id="698" parent="74" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="699" parent="75" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="700" parent="75" name="PIPELINE2_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="701" parent="75" name="PIPELINEIMAGE">
+      <Position>3</Position>
+      <Comment>pipelineimage</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <index id="702" parent="75" name="FKF69AB9D1A166B9E9">
+      <ColNames>PIPELINE2_ID</ColNames>
+    </index>
+    <key id="703" parent="75" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="704" parent="76" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="705" parent="76" name="PIPELINEPICTRUETYPE_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="706" parent="76" name="PICTRUENAME">
+      <Position>3</Position>
+      <Comment>图片名</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="707" parent="76" name="PICTRUEADDR">
+      <Position>4</Position>
+      <Comment>图片地址</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="708" parent="76" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="709" parent="76" name="FK2A6069169FCA609D">
+      <ColNames>PIPELINEPICTRUETYPE_ID</ColNames>
+      <RefSchemaName>dlyy</RefSchemaName>
+      <RefTableName>pipelinepictruetype</RefTableName>
+      <RefKeyName>PRIMARY</RefKeyName>
+      <RefColNames>ID</RefColNames>
+    </foreign-key>
+    <column id="710" parent="77" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="711" parent="77" name="PICTRUETYPE">
+      <Position>2</Position>
+      <Comment>图片类别</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="712" parent="77" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="713" parent="78" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="714" parent="78" name="NAME">
+      <Position>2</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="715" parent="78" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="716" parent="79" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="717" parent="79" name="PUMP_NAME">
+      <Position>2</Position>
+      <Comment>水泵名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="718" parent="79" name="PUMP_NUM">
+      <Position>3</Position>
+      <Comment>水泵编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="719" parent="79" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="720" parent="79" name="STATE">
+      <Position>5</Position>
+      <Comment>状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="721" parent="79" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="722" parent="80" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="723" parent="80" name="NAME">
+      <Position>2</Position>
+      <Comment>建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="724" parent="80" name="AREA">
+      <Position>3</Position>
+      <Comment>面积</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="725" parent="80" name="DECADE">
+      <Position>4</Position>
+      <Comment>年代</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="726" parent="80" name="LAYER">
+      <Position>5</Position>
+      <Comment>层数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="727" parent="80" name="PRINCIPAL">
+      <Position>6</Position>
+      <Comment>负责人</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="728" parent="80" name="FUNCTIONS">
+      <Position>7</Position>
+      <Comment>功能</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="729" parent="80" name="NUM_OF_BEDS">
+      <Position>8</Position>
+      <Comment>床位数量</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="730" parent="80" name="NIANDU">
+      <Position>9</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="731" parent="80" name="QUOTA">
+      <Position>10</Position>
+      <Comment>能耗定额</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="732" parent="80" name="ACTUAL">
+      <Position>11</Position>
+      <Comment>实际能耗</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="733" parent="80" name="CONTRAST">
+      <Position>12</Position>
+      <Comment>对比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="734" parent="80" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="735" parent="81" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="736" parent="81" name="ENERGYQUOTA_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="737" parent="81" name="NENDO">
+      <Position>3</Position>
+      <Comment>年度</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="738" parent="81" name="VALUE">
+      <Position>4</Position>
+      <Comment>指标值</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <index id="739" parent="81" name="FK63C389F9C4C67677">
+      <ColNames>ENERGYQUOTA_ID</ColNames>
+    </index>
+    <key id="740" parent="81" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="741" parent="82" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="742" parent="82" name="NAME">
+      <Position>2</Position>
+      <Comment>name</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="743" parent="82" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="744" parent="83" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="745" parent="83" name="METERTYPE">
+      <Position>2</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="746" parent="83" name="METERNAME">
+      <Position>3</Position>
+      <Comment>表计名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="747" parent="83" name="METERNUM">
+      <Position>4</Position>
+      <Comment>表计实时示数</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="748" parent="83" name="COLLECTTIME">
+      <Position>5</Position>
+      <Comment>采集时间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="749" parent="83" name="MONTHCONSUME">
+      <Position>6</Position>
+      <Comment>当月消耗</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="750" parent="83" name="PERCENTAGE">
+      <Position>7</Position>
+      <Comment>当月指标占比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="751" parent="83" name="TONGBI">
+      <Position>8</Position>
+      <Comment>同比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="752" parent="83" name="HUANBI">
+      <Position>9</Position>
+      <Comment>环比</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="753" parent="83" name="BUILD">
+      <Position>10</Position>
+      <Comment>所属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="754" parent="83" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="755" parent="84" name="ID">
+      <Position>1</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="756" parent="84" name="DEPARTMENT_ROOM_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="757" parent="84" name="ROOMID">
+      <Position>3</Position>
+      <Comment>房间</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="758" parent="84" name="PEOPLENUMBER">
+      <Position>4</Position>
+      <Comment>房间人数</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <index id="759" parent="84" name="FK2678DB647EFC89">
+      <ColNames>DEPARTMENT_ROOM_ID</ColNames>
+    </index>
+    <key id="760" parent="84" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="761" parent="85" name="报警位置">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="762" parent="85" name="报警类型">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="763" parent="85" name="重要性">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="764" parent="85" name="报警时间">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="765" parent="85" name="报警值">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="766" parent="85" name="报警阀值">
+      <Position>6</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="767" parent="85" name="报警内容">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="768" parent="85" name="状态">
+      <Position>8</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="769" parent="86" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="770" parent="86" name="NAME">
+      <Position>2</Position>
+      <Comment>name</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="771" parent="86" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="772" parent="87" name="ID">
+      <Position>1</Position>
+      <Comment>主键</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="773" parent="87" name="MENUNAME">
+      <Position>2</Position>
+      <Comment>菜单名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="774" parent="87" name="HREF">
+      <Position>3</Position>
+      <Comment>链接</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="775" parent="87" name="ICO">
+      <Position>4</Position>
+      <Comment>图标</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="776" parent="87" name="VISIBILITY">
+      <Position>5</Position>
+      <Comment>visibility</Comment>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="777" parent="87" name="PARENT_ID">
+      <Position>6</Position>
+      <Comment>父节点id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="778" parent="87" name="SORTINDEX">
+      <Position>7</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <index id="779" parent="87" name="fk">
+      <ColNames>PARENT_ID</ColNames>
+    </index>
+    <key id="780" parent="87" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="781" parent="88" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="782" parent="88" name="NAME">
+      <Position>2</Position>
+      <Comment>角色名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="783" parent="88" name="PERMISSION">
+      <Position>3</Position>
+      <Comment>权限</Comment>
+      <DataType>VARCHAR(6000)|12</DataType>
+    </column>
+    <key id="784" parent="88" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="785" parent="89" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="786" parent="89" name="DEPARTMENT">
+      <Position>2</Position>
+      <Comment>归属科室</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="787" parent="89" name="LOGIN_NAME">
+      <Position>3</Position>
+      <Comment>登录名</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="788" parent="89" name="JOB_NUMBER">
+      <Position>4</Position>
+      <Comment>工号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="789" parent="89" name="NAME">
+      <Position>5</Position>
+      <Comment>姓名</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="790" parent="89" name="PASS">
+      <Position>6</Position>
+      <Comment>密码</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="791" parent="89" name="REPASS">
+      <Position>7</Position>
+      <Comment>确认密码</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="792" parent="89" name="ROOM">
+      <Position>8</Position>
+      <Comment>房间</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="793" parent="89" name="MAIL">
+      <Position>9</Position>
+      <Comment>邮箱</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="794" parent="89" name="TELEPHONE">
+      <Position>10</Position>
+      <Comment>电话</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="795" parent="89" name="PHONE">
+      <Position>11</Position>
+      <Comment>手机</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="796" parent="89" name="TITLE">
+      <Position>12</Position>
+      <Comment>职称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="797" parent="89" name="INFO">
+      <Position>13</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="798" parent="89" name="ROLE">
+      <Position>14</Position>
+      <Comment>角色</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="799" parent="89" name="DEFENDTEAM">
+      <Position>15</Position>
+      <Comment>维护组</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="800" parent="89" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="801" parent="90" name="ATTACHMENT_ID">
+      <Position>1</Position>
+      <Comment>附件的唯一标识</Comment>
+      <DataType>VARCHAR(45)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="802" parent="90" name="TABLE_NAME">
+      <Position>2</Position>
+      <Comment>附件隶属的物理表名</Comment>
+      <DataType>VARCHAR(36)|12</DataType>
+    </column>
+    <column id="803" parent="90" name="PK_VAL">
+      <Position>3</Position>
+      <Comment>附件隶属的物理表名</Comment>
+      <DataType>VARCHAR(36)|12</DataType>
+    </column>
+    <column id="804" parent="90" name="ATT_NAME">
+      <Position>4</Position>
+      <Comment>不带路径的附件名</Comment>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="805" parent="90" name="ATT_PATH">
+      <Position>5</Position>
+      <Comment>附件磁盘路径</Comment>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="806" parent="90" name="COL_NAME">
+      <Position>6</Position>
+      <Comment>附件所隶属的物理表字段名</Comment>
+      <DataType>VARCHAR(128)|12</DataType>
+    </column>
+    <column id="807" parent="90" name="ATT_SIZE">
+      <Position>7</Position>
+      <Comment>文件大小</Comment>
+      <DataType>DECIMAL(12)|3</DataType>
+    </column>
+    <column id="808" parent="90" name="ATT_FILE">
+      <Position>8</Position>
+      <Comment>数据库存储功能的存储字段</Comment>
+      <DataType>LONGBLOB(max)|-4</DataType>
+    </column>
+    <index id="809" parent="90" name="INDEX_TABLE_NAME">
+      <ColNames>TABLE_NAME</ColNames>
+    </index>
+    <index id="810" parent="90" name="INDEX_PK_VAL">
+      <ColNames>PK_VAL</ColNames>
+    </index>
+    <index id="811" parent="90" name="INDEX_ATT_NAME">
+      <ColNames>ATT_NAME</ColNames>
+    </index>
+    <index id="812" parent="90" name="INDEX_COL_NAME">
+      <ColNames>COL_NAME</ColNames>
+    </index>
+    <key id="813" parent="90" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ATTACHMENT_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="814" parent="91" name="ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="815" parent="91" name="NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="816" parent="91" name="URL">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="817" parent="91" name="VISITNUM">
+      <Position>4</Position>
+      <DataType>INT(10)|4</DataType>
+    </column>
+    <column id="818" parent="91" name="USERID">
+      <Position>5</Position>
+      <DataType>VARCHAR(42)|12</DataType>
+    </column>
+    <column id="819" parent="91" name="CODE">
+      <Position>6</Position>
+      <DataType>VARCHAR(100)|12</DataType>
+    </column>
+    <column id="820" parent="91" name="TYPE">
+      <Position>7</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="821" parent="91" name="USEDTIME">
+      <Position>8</Position>
+      <DataType>DATETIME(19)|93</DataType>
+    </column>
+    <key id="822" parent="91" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>NAME</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="823" parent="92" name="APP_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="824" parent="92" name="APP_NAME">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="825" parent="92" name="CREATE_TIME">
+      <Position>3</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="826" parent="92" name="UPDATE_TIME">
+      <Position>4</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="827" parent="92" name="CREATE_USER">
+      <Position>5</Position>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <column id="828" parent="93" name="LOG_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="829" parent="93" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="830" parent="93" name="APP_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="831" parent="93" name="LOG_CONTENT">
+      <Position>4</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="832" parent="93" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="833" parent="93" name="EXPIRE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <key id="834" parent="93" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>LOG_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="835" parent="94" name="CACHE_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="836" parent="94" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="837" parent="94" name="APP_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="838" parent="94" name="CACHE_CONTENT">
+      <Position>4</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="839" parent="94" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="840" parent="94" name="UPDATE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="841" parent="94" name="EXPIRE_TIME">
+      <Position>7</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="842" parent="94" name="CACHE_TYPE">
+      <Position>8</Position>
+      <DataType>VARCHAR(1)|12</DataType>
+    </column>
+    <key id="843" parent="94" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>CACHE_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="844" parent="95" name="DATACONN_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="845" parent="95" name="APP_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="846" parent="95" name="DATACONN_NAME">
+      <Position>3</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="847" parent="95" name="DATACONN_CONTENT">
+      <Position>4</Position>
+      <DataType>VARCHAR(1024)|12</DataType>
+    </column>
+    <column id="848" parent="95" name="IS_DEFAULT">
+      <Position>5</Position>
+      <DataType>VARCHAR(1)|12</DataType>
+    </column>
+    <column id="849" parent="95" name="DATACONN_DESCRIPTION">
+      <Position>6</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <key id="850" parent="95" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DATACONN_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="851" parent="96" name="DATASET_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="852" parent="96" name="DATACONN_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="853" parent="96" name="RPT_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="854" parent="96" name="APP_ID">
+      <Position>4</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="855" parent="96" name="DATASET_NAME">
+      <Position>5</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="856" parent="96" name="DATASET_CONTENT">
+      <Position>6</Position>
+      <DataType>VARCHAR(1024)|12</DataType>
+    </column>
+    <column id="857" parent="96" name="DATASET_DESCRIPTION">
+      <Position>7</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <key id="858" parent="96" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>DATASET_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="859" parent="97" name="LOG_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="860" parent="97" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="861" parent="97" name="APP_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="862" parent="97" name="LOG_CONTENT">
+      <Position>4</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="863" parent="97" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="864" parent="97" name="EXPIRE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <key id="865" parent="97" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>LOG_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="866" parent="98" name="GROUP_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="867" parent="98" name="APP_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="868" parent="98" name="PARENT_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="869" parent="98" name="GROUP_NAME">
+      <Position>4</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="870" parent="98" name="GROUP_DESC">
+      <Position>5</Position>
+      <DataType>VARCHAR(1024)|12</DataType>
+    </column>
+    <column id="871" parent="98" name="CREATE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="872" parent="98" name="UPDATE_TIME">
+      <Position>7</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="873" parent="98" name="CREATE_USER">
+      <Position>8</Position>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <key id="874" parent="98" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>GROUP_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="875" parent="99" name="HISTORY_RPT_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="876" parent="99" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="877" parent="99" name="RPT_VER">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="878" parent="99" name="APP_ID">
+      <Position>4</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="879" parent="99" name="PARENT_ID">
+      <Position>5</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="880" parent="99" name="USER_ID">
+      <Position>6</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="881" parent="99" name="RPT_NAME">
+      <Position>7</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="882" parent="99" name="RPT_DESC">
+      <Position>8</Position>
+      <DataType>VARCHAR(1024)|12</DataType>
+    </column>
+    <column id="883" parent="99" name="RPT_CONTENT">
+      <Position>9</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="884" parent="99" name="CREATE_TIME">
+      <Position>10</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="885" parent="99" name="UPDATE_TIME">
+      <Position>11</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="886" parent="99" name="CREATE_USER">
+      <Position>12</Position>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <key id="887" parent="99" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>HISTORY_RPT_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="888" parent="100" name="LOG_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="889" parent="100" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="890" parent="100" name="APP_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="891" parent="100" name="LOG_CONTENT">
+      <Position>4</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="892" parent="100" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="893" parent="100" name="EXPIRE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="894" parent="100" name="STATUS">
+      <Position>7</Position>
+      <DataType>VARCHAR(10)|12</DataType>
+    </column>
+    <column id="895" parent="100" name="USERNAME">
+      <Position>8</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="896" parent="100" name="USER_ID">
+      <Position>9</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <key id="897" parent="100" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>LOG_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="898" parent="101" name="SNAPSHOT_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="899" parent="101" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="900" parent="101" name="APP_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="901" parent="101" name="SNAPSHOT_CONTENT">
+      <Position>4</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="902" parent="101" name="CREATE_TIME">
+      <Position>5</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="903" parent="101" name="UPDATE_TIME">
+      <Position>6</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="904" parent="101" name="IS_USED">
+      <Position>7</Position>
+      <DataType>VARCHAR(1)|12</DataType>
+    </column>
+    <key id="905" parent="101" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>SNAPSHOT_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="906" parent="102" name="STYLE_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="907" parent="102" name="RPT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="908" parent="102" name="STYLE_CONTENT">
+      <Position>3</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <key id="909" parent="102" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>STYLE_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="910" parent="103" name="RPT_ID">
+      <Position>1</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="911" parent="103" name="APP_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="912" parent="103" name="PARENT_ID">
+      <Position>3</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="913" parent="103" name="USER_ID">
+      <Position>4</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="914" parent="103" name="RPT_NAME">
+      <Position>5</Position>
+      <DataType>VARCHAR(512)|12</DataType>
+    </column>
+    <column id="915" parent="103" name="RPT_DESC">
+      <Position>6</Position>
+      <DataType>VARCHAR(1024)|12</DataType>
+    </column>
+    <column id="916" parent="103" name="RPT_CONTENT">
+      <Position>7</Position>
+      <DataType>BLOB(65535)|-4</DataType>
+    </column>
+    <column id="917" parent="103" name="CREATE_TIME">
+      <Position>8</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>CURRENT_TIMESTAMP</DefaultExpression>
+    </column>
+    <column id="918" parent="103" name="UPDATE_TIME">
+      <Position>9</Position>
+      <DataType>TIMESTAMP(19)|93</DataType>
+      <NotNull>1</NotNull>
+      <DefaultExpression>&apos;0000-00-00 00:00:00&apos;</DefaultExpression>
+    </column>
+    <column id="919" parent="103" name="CREATE_USER">
+      <Position>10</Position>
+      <DataType>VARCHAR(64)|12</DataType>
+    </column>
+    <key id="920" parent="103" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>RPT_ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="921" parent="104" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="922" parent="104" name="TEMP_NAME">
+      <Position>2</Position>
+      <Comment>模板名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="923" parent="104" name="ZHIBIAO">
+      <Position>3</Position>
+      <Comment>指标</Comment>
+      <DataType>TEXT(65535)|-1</DataType>
+    </column>
+    <key id="924" parent="104" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="925" parent="105" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="926" parent="105" name="TEMPLATENAME">
+      <Position>2</Position>
+      <Comment>模板名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="927" parent="105" name="METERTYPE">
+      <Position>3</Position>
+      <Comment>表计类型</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="928" parent="105" name="COLLECTINTERVAL">
+      <Position>4</Position>
+      <Comment>采集间隔</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="929" parent="105" name="REMARK">
+      <Position>5</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="930" parent="105" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="931" parent="106" name="id">
+      <Position>1</Position>
+      <DataType>INT(10)|4</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="932" parent="106" name="metertype">
+      <Position>2</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="933" parent="106" name="metername">
+      <Position>3</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="934" parent="106" name="metertime">
+      <Position>4</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="935" parent="106" name="meternum">
+      <Position>5</Position>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="936" parent="106" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="937" parent="107" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="938" parent="107" name="COLLECTTIME">
+      <Position>2</Position>
+      <Comment>collecttime</Comment>
+      <DataType>DATE(10)|91</DataType>
+    </column>
+    <key id="939" parent="107" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="940" parent="108" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="941" parent="108" name="NAME">
+      <Position>2</Position>
+      <Comment>名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="942" parent="108" name="UDESCRIBE">
+      <Position>3</Position>
+      <Comment>描述</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="943" parent="108" name="UBUILDING">
+      <Position>4</Position>
+      <Comment>下属建筑</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="944" parent="108" name="UINFO">
+      <Position>5</Position>
+      <Comment>备注</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="945" parent="108" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="946" parent="109" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="947" parent="109" name="PARENT_ID">
+      <Position>2</Position>
+      <DataType>VARCHAR(32)|12</DataType>
+    </column>
+    <column id="948" parent="109" name="PARENTNAME">
+      <Position>3</Position>
+      <Comment>根节点名称</Comment>
+      <DataType>VARCHAR(50)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="949" parent="109" name="WARNINGTYPE">
+      <Position>4</Position>
+      <Comment>报警类型</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="950" parent="109" name="THRESHOLD">
+      <Position>5</Position>
+      <Comment>阈值</Comment>
+      <DataType>FLOAT(12)|7</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="951" parent="109" name="IMPORTANCETYPE">
+      <Position>6</Position>
+      <Comment>重要性</Comment>
+      <DataType>VARCHAR(2)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="952" parent="109" name="CONTENT">
+      <Position>7</Position>
+      <Comment>报警内容</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="953" parent="109" name="FK6CA2BB34DA05C554">
+      <ColNames>PARENT_ID</ColNames>
+    </index>
+    <key id="954" parent="109" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="955" parent="110" name="ID">
+      <Position>1</Position>
+      <Comment>id</Comment>
+      <DataType>VARCHAR(32)|12</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="956" parent="110" name="NAME">
+      <Position>2</Position>
+      <Comment>水泵名称</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="957" parent="110" name="NUMBERING">
+      <Position>3</Position>
+      <Comment>编号</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="958" parent="110" name="LOCATION">
+      <Position>4</Position>
+      <Comment>位置</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <column id="959" parent="110" name="RUNSTATUS">
+      <Position>5</Position>
+      <Comment>运行状态</Comment>
+      <DataType>VARCHAR(255)|12</DataType>
+    </column>
+    <key id="960" parent="110" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>ID</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

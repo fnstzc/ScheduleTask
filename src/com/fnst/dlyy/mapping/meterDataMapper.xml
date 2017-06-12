@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.fnst.dlyy.dao.MeterDataDao">
+    <select id="getNowData" resultType="MeterData">
+        SELECT A.METERTYPE,A.METERNAME,A.METERNUM,A.COLLECTTIME FROM METER_NOW_DATA A WHERE(SELECT COUNT(*) FROM METER_NOW_DATA WHERE METERNAME = A.METERNAME AND COLLECTTIME > A.COLLECTTIME  ) &lt; 1 ORDER BY A.COLLECTTIME DESC;
+    </select>
+    <select id="getLastDailyData" resultType="MeterDailyData">
+        SELECT A.METERTYPE,A.METERNAME,A.METERNUM,A.COLLECTTIME FROM METER_DAILY_DATA A WHERE(SELECT COUNT(*) FROM METER_DAILY_DATA WHERE METERNAME = A.METERNAME AND COLLECTTIME > A.COLLECTTIME  ) &lt; 1 ORDER BY A.COLLECTTIME DESC;
+    </select>
+    <select id="getNewInitialData" resultType="MeterData">
+        SELECT A.METERTYPE,A.METERNAME,A.METERNUM,A.COLLECTTIME FROM METER_INITIAL_DATA A WHERE(SELECT COUNT(*) FROM METER_INITIAL_DATA WHERE METERNAME = A.METERNAME AND COLLECTTIME > A.COLLECTTIME  ) &lt; 1 ORDER BY A.COLLECTTIME DESC;
+    </select>
+    <select id="getNewInitialDataMeterName" resultType="String">
+        SELECT A.METERNAME FROM METER_INITIAL_DATA A WHERE(SELECT COUNT(*) FROM METER_INITIAL_DATA WHERE METERNAME = A.METERNAME AND COLLECTTIME > A.COLLECTTIME  ) &lt; 1 ORDER BY A.COLLECTTIME DESC;
+    </select>
+    <select id="getNowDataMeterNames" resultType="String">
+        SELECT METERNAME FROM METER_NOW_DATA
+    </select>
+    <select id="getLastMonthData" resultType="MeterData">
+        SELECT A.METERTYPE,A.METERNAME,A.METERNUM,A.COLLECTTIME FROM METER_MONTH_DATA A WHERE(SELECT COUNT(*) FROM METER_MONTH_DATA WHERE METERNAME = A.METERNAME AND COLLECTTIME > A.COLLECTTIME  ) &lt; 1 ORDER BY A.COLLECTTIME DESC;
+    </select>
+	<select id="getMetersNames" resultType="String">
+		SELECT METERNAME FROM METER;
+	</select>
+	<select id="getMetersCount" resultType="Integer">
+		SELECT COUNT(*) FROM METER;
+	</select>
+	<select id="getAllMeterTypeByBuild" resultType="String">
+		SELECT DISTINCT METERTYPE FROM METER_INITIAL_DATA;
+	</select>
+	<select id="getElecTotal" resultType="String" parameterType="String">
+		SELECT SUM(${electype}) FROM METER_DAILY_DATA WHERE METERTYPE LIKE CONCAT('%',#{metertype}) AND COLLECTTIME LIKE CONCAT(#{statisticmonth},'%')
+	</select>
+	<select id="getWaterTotal" resultType="String" parameterType="String">
+		SELECT SUM(${dailyconsume}) FROM METER_DAILY_DATA WHERE METERTYPE = #{metertype} AND COLLECTTIME LIKE CONCAT(#{statisticmonth},'%')
+	</select>
+	<select id="getAllBuild" resultType="String">
+		SELECT DISTINCT BUILD FROM METER_NOW_DATA
+	</select>
+	<select id="getEnergyzlByDateAndItem" resultType="Object" parameterType="String">
+		SELECT FEIYONG FROM ENERGYZL WHERE SHIJIAN = #{shijian} AND XIANGMU = #{xiangmu}
+	</select>
+	<select id="getMeterMonthTime" resultType="String" parameterType="String">
+		SELECT METERNAME FROM METER_MONTH_DATA WHERE COLLECTTIME = #{collecttime}
+	</select>
+	<select id="getMeterDailyTime" resultType="String" parameterType="String">
+		SELECT METERNAME FROM METER_DAILY_DATA WHERE COLLECTTIME = #{collecttime}
+	</select>
+
+    <!--获取能耗单价-->
+    <select id="getElecPrice" resultType="String">
+        SELECT PARAVALUES FROM PARA_CONFIG WHERE PARANAME='电费单价'
+    </select>
+    <select id="getWaterPrice" resultType="String">
+        SELECT PARAVALUES FROM PARA_CONFIG WHERE PARANAME='水费单价'
+    </select>
+    <select id="getGasPrice" resultType="String">
+        SELECT PARAVALUES FROM PARA_CONFIG WHERE PARANAME='天然气单价'
+    </select>
+    <select id="getWarmPrice" resultType="String">
+        SELECT PARAVALUES FROM PARA_CONFIG WHERE PARANAME='热力单价'
+    </select>
+    <select id="getOilPrice" resultType="String">
+        SELECT PARAVALUES FROM PARA_CONFIG WHERE PARANAME='汽油单价'
+    </select>
+
+
+    <update id="updateMeterDailyDataTip" parameterType="String" >
+        UPDATE METER_DAILY_DATA SET METERNUM=#{meternum},COLLECTTIME=#{collecttime},METERNUM_TIP=#{meternum_tip},DAILYCONSUME=#{consume} WHERE METERNAME=#{metername}
+    </update>
+    <update id="updateMeterDailyDataPeak" parameterType="String" >
+        UPDATE METER_DAILY_DATA SET METERNUM=#{meternum},COLLECTTIME=#{collecttime},METERNUM_PEAK=#{meternum_peak},DAILYCONSUME=#{consume} WHERE METERNAME=#{metername}
+    </update>
+    <update id="updateMeterDailyDataValley" parameterType="String" >
+        UPDATE METER_DAILY_DATA SET METERNUM=#{meternum},COLLECTTIME=#{collecttime},METERNUM_VALLEY=#{meternum_valley},DAILYCONSUME=#{consume} WHERE METERNAME=#{metername}
+    </update>
+    <update id="updateMeterDailyDataNormal" parameterType="String" >
+        UPDATE METER_DAILY_DATA SET METERNUM=#{meternum},COLLECTTIME=#{collecttime},METERNUM_NORMAL=#{meternum_normal},DAILYCONSUME=#{consume} WHERE METERNAME=#{metername}
+    </update>
+    <update id="updateMeterMonthData" parameterType="String" >
+        UPDATE METER_MONTH_DATA SET METERNUM=#{meternum},MONTHCONSUME=#{consume} WHERE METERNAME=#{metername} AND COLLECTTIME=#{collecttime}
+    </update>
+    <update id="updateMeterNowData" parameterType="String" >
+        UPDATE METER_NOW_DATA SET METERNUM=#{meternum},COLLECTTIME=#{collecttime} WHERE METERNAME=#{metername}
+    </update>
+    <update id="updateEnergyzl" parameterType="String" >
+        UPDATE ENERGYZL SET XIAOHAO=#{xiaohao},FEIYONG=#{feiyong} WHERE SHIJIAN=#{shijian} AND XIANGMU=#{xiangmu}
+    </update>
+    
+    <insert id="addMeterNowData" parameterType="String" 
+        useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO METER_NOW_DATA(METERTYPE,METERNAME,METERNUM,COLLECTTIME,BUILD)
+             values(#{metertype},#{metername},#{meternum},#{collecttime},'A座')
+    </insert>
+    <insert id="addMeterDailyData" parameterType="String"
+        useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO METER_DAILY_DATA(METERTYPE,METERNAME,METERNUM,COLLECTTIME,METERNUM_TIP,METERNUM_PEAK,METERNUM_VALLEY,METERNUM_NORMAL,DAILYCONSUME,BUILD)
+             VALUES(#{metertype},#{metername},#{meternum},#{collecttime},#{meternum_tip},#{meternum_peak},#{meternum_valley},#{meternum_normal},#{consume},'A座')
+    </insert>
+    <insert id="addMeterDailyInitialData" parameterType="String"
+        useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO METER_DAILY_DATA(METERTYPE,METERNAME,METERNUM,COLLECTTIME,METERNUM_TIP,METERNUM_PEAK,METERNUM_VALLEY,METERNUM_NORMAL,DAILYCONSUME,BUILD)
+             VALUES(#{metertype},#{metername},#{meternum},#{collecttime},0,0,0,0,0,'A座')
+    </insert>
+    <insert id="addMeterMonthData" parameterType="String" 
+        useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO METER_MONTH_DATA(METERTYPE,METERNAME,METERNUM,COLLECTTIME,MONTHCONSUME,BUILD)
+             VALUES(#{metertype},#{metername},#{meternum},#{collecttime},#{consume},'A座')
+    </insert>
+    <insert id="addEnergyzl" parameterType="Energyzl" 
+    		useGeneratedKeys="true" keyProperty="id">
+        INSERT INTO ENERGYZL(ID,JIANZHU,SHIJIAN,XIANGMU,XIAOHAO,FEIYONG)
+             values(#{id},#{jianzhu},#{shijian},#{xiangmu},#{xiaohao},#{feiyong})
+    </insert>
+    
+    <delete id="deleteAllNowData">
+        DELETE FROM METER_NOW_DATA WHERE METER_NOW_DATA.ID > 0;
+    </delete>
+</mapper>
